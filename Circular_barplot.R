@@ -1,5 +1,5 @@
 
-####Circular bar plot with center open #############################################
+#### Circular bar plot with center open ####
 library(tidyverse)
 
 data_long <- data %>% 
