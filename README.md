@@ -5,3 +5,5 @@ This repository contains R scripts used for analysis of grain quality of rice la
 - Correlation heatmap
 - Circular barplot
 - Heirarchial k-means clustering
+# Install required packages
+install.packages(c("agricolae","FactoMineR","factoextra","corrplot","fields","ggplot2"))
