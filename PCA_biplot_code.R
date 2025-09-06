@@ -1,4 +1,4 @@
-#PCA codes for corrplot and biplot. 
+#Script for PCA biplot and corrplot. 
 library("FactoMineR")
 library("factoextra")
 library(ggplot2)
@@ -160,7 +160,7 @@ ind.coord
 
 ###PCA biplot with actual label names
 fviz_pca_biplot(res.pca, 
-                axes = c(3, 4),       # Specify dimensions 
+                axes = c(3, 4),      
                 geom.ind = "point", 
                 col.ind = "#ffa12c", 
                 pointshape = 16, 
@@ -175,6 +175,6 @@ fviz_pca_biplot(res.pca,
                   point.padding = 0.05,  
                   segment.size = 0,   
                   max.overlaps = 6) + 
-  labs(x = "PC3 (x%)", y = "PC4 (y%%)")  
+  labs(x = "PC3 (x%)", y = "PC4 (y%)")  
 
 ######################
